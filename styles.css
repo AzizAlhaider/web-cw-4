@@ -3,6 +3,7 @@ html, body{
     height: 100%;
 }
 
+
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
     1. لون الخلفيه
     2. الطول والعرض
@@ -15,20 +16,51 @@ html, body{
 
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 120px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    height: 100%;
+    border-radius: 8px;
+    margin: 1px;
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    
+    display: inline-block;
+    background-color: blue;
+    color: black;
+    height: 20%;
+    border-radius: 8px;
 }
-
+.header:hover{
+    background-color: white;
+}
+p{
+    text-align: center;
+}
 .main{
-
+    background-color: turquoise;
+    color: black;
+    border-radius: 8px;
+    
+    height: 80%;
 }
 
 a{
     color: darkgray;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
+.flex{
+     height: 100%;
+    display: flex;
+}
+
+.block{
+    display: block;
+}
+
 
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
@@ -37,9 +69,9 @@ a{
 
 
 h1{
-    margin: 0;
-    margin-right: 5px;
+    margin: 5px;
 }
+
 
 h2{
     margin: 0;
